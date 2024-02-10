@@ -29,7 +29,45 @@
             </ul>
         </nav>
     </header>
-    This is a services page
+    
+    
+    <h2>Choose the services you would like to opt for:</h2>
+    <form id="serviceForm">
+        <input type="radio" id="service1" name="service" value="Service 1">
+        <label for="service1">Service 1</label><br>
+        <input type="radio" id="service2" name="service" value="Service 2">
+        <label for="service2">Service 2</label><br>
+        <input type="radio" id="service3" name="service" value="Service 3">
+        <label for="service3">Service 3</label><br>
+    </form>
+
+    <h2>Choose the locations:</h2>
+    <form id="locationForm">
+        <select id="location">
+            <option value="Location 1">Location 1</option>
+            <option value="Location 2">Location 2</option>
+            <option value="Location 3">Location 3</option>
+        </select>
+    </form>
+
+    <h2>Choose the time slot:</h2>
+    <form id="timeSlotForm">
+        <input type="radio" id="morning" name="timeSlot" value="Morning">
+        <label for="morning">Morning</label><br>
+        <input type="radio" id="afternoon" name="timeSlot" value="Afternoon">
+        <label for="afternoon">Afternoon</label><br>
+        <input type="radio" id="night" name="timeSlot" value="Night">
+        <label for="night">Night</label><br>
+    </form>
+
+    <button id="addService">Add Service</button>
+
+    <!-- Section where related PSW workers will appear -->
+    <section id="relatedWorkers">
+        <!-- PSW workers list will appear here based on the selections -->
+    </section>
+
+
      <!-- Footer Section -->
      <footer>
         <div class="footer-links">

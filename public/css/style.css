@@ -258,3 +258,53 @@ a:hover {
     margin: 5px 0;
     color: #555;
 }
+
+/* Additional Styles for Services Selection */
+#serviceForm {
+    margin-bottom: 20px;
+}
+
+/* Additional Styles for Locations Selection */
+#locationForm {
+    margin-bottom: 20px;
+}
+
+/* Additional Styles for Time Slot Selection */
+#timeSlotForm {
+    margin-bottom: 20px;
+}
+
+/* Additional Styles for Add Service Button */
+#addService {
+    margin-bottom: 20px;
+}
+
+/* Additional Styles for Related Workers Section */
+#relatedWorkers {
+    margin-top: 20px;
+}
+
+.relatedWorker {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.relatedWorker img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.relatedWorker h3 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.relatedWorker p {
+    margin: 5px 0;
+    color: #555;
+}
